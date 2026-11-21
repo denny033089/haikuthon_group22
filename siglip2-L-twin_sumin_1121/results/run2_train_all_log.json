@@ -1,0 +1,51 @@
+{
+ "config": {
+  "CKPT": "google/siglip2-large-patch16-384",
+  "N_TRAIN_LAYERS": 6,
+  "EPOCHS": 8,
+  "PATIENCE": 2,
+  "BS": 32,
+  "LR": 1e-05,
+  "WD": 0.01,
+  "WARMUP": 50,
+  "NEG_PER_SAMPLE": 1,
+  "VAL_FRAC": 0.2,
+  "TWIN_JACCARD": 0.7,
+  "TRAIN_ON_ALL": true,
+  "SEED": 0
+ },
+ "n_train": 4000,
+ "n_val": 0,
+ "epochs": [
+  {
+   "epoch": 1,
+   "loss": 15.206508451241714,
+   "sec": 217,
+   "neg_texts": 3927
+  },
+  {
+   "epoch": 2,
+   "loss": 2.841508907538194,
+   "sec": 219,
+   "neg_texts": 3927
+  },
+  {
+   "epoch": 3,
+   "loss": 2.64581212080442,
+   "sec": 219,
+   "neg_texts": 3927
+  },
+  {
+   "epoch": 4,
+   "loss": 2.476013657658599,
+   "sec": 220,
+   "neg_texts": 3927
+  },
+  {
+   "epoch": 5,
+   "loss": 2.2924283852944005,
+   "sec": 220,
+   "neg_texts": 3927
+  }
+ ]
+}

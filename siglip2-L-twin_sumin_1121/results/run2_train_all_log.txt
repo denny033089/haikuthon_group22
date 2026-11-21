@@ -1,0 +1,15 @@
+0.00s - to python to disable frozen modules.
+0.00s - to python to disable frozen modules.
+torch 2.11.0+cu130 | transformers 5.20.2 | GPU Tesla T4
+/kaggle/input/competitions/2026-haikuthon 4000
+쌍둥이 묶음 1382 | 크기 분포 [(1, 54), (2, 711), (3, 96), (4, 442), (5, 38), (6, 24), (7, 2), (8, 15)]
+train 4000쌍 (1382묶음) | val 0쌍 (0묶음), 쌍둥이가 갤러리에 있는 val 쿼리 0 (0%)
+이미지 (4000, 3, 384, 384) 로드 49s
+층 수 vision 24 / text 24 | 학습 파라미터 165M / 전체 882M
+epoch 1/5: loss 15.207  217s  (오답 문장 3927개)
+epoch 2/5: loss 2.842  219s  (오답 문장 3927개)
+epoch 3/5: loss 2.646  219s  (오답 문장 3927개)
+epoch 4/5: loss 2.476  220s  (오답 문장 3927개)
+epoch 5/5: loss 2.292  220s  (오답 문장 3927개)
+파일: ['chat_template.jinja', 'config.json', 'model.safetensors', 'processor_config.json', 'tokenizer.json', 'tokenizer_config.json'] 1.80 GB
+저장: /kaggle/working/siglip2L_twin/model
