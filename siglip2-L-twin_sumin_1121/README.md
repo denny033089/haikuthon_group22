@@ -50,7 +50,9 @@ lr 1e-5, warmup 50, weight decay 0.01, 배치 32, 오답 문장 문장당 1개, 
 ## 파일
 | 파일 | 설명 |
 |---|---|
-| `train_twin_siglip2L.py` / `.ipynb` | 학습 노트북 (Kaggle: GPU T4, Internet On, Input = 대회 데이터). `TRAIN_ON_ALL=False` 1차, `True` 2차 |
+| `train_twin_siglip2L.py` / `.ipynb` | 학습 노트북 코드 (Kaggle: GPU T4, Internet On, Input = 대회 데이터). `TRAIN_ON_ALL=False` 1차, `True` 2차 |
+| `train_twin_siglip2L_run1_executed.ipynb` | **1차 실행 결과 포함** (Kaggle에서 다운로드) |
+| `train_twin_siglip2L_run2_executed.ipynb` | **2차 실행 결과 포함** |
 | `results/run1_*` | 1차 로그 (`log.json`: epoch별 수치, `.txt`: 출력), `run1_split.json`: 학습/검증 인덱스 |
 | `results/run2_*` | 2차 로그 |
 | `submission/model.py` | 제출용 `load_model` / `predict` (오프라인 로드, 이미지 디코딩 CPU 4개 병렬, fp16) |
